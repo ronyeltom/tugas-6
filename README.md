@@ -32,10 +32,9 @@ LOAD DATA A INFILE Nama_backup_file'INTO TABLE nama_table:
 ```
 MySQLdump -u root -p (nama_database) < c:\file_backup.sq
 ```
-![gambar](scs/9.png)
+![gambar](scs/9.png)<br>
 
 
-## script cron job untuk melakukan backup otomatis setiap hari minggu jam 12 malam !
 ```
 00**7mysqldump -u root ronyeltom_312010003>backup2.sq
 ```
