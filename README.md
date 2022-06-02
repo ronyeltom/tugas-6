@@ -19,7 +19,7 @@
 ### data yang telah di backup  dapat di kembalikan kapan saja bila di perlukan.
 
 ``` 
-<i>LOAD DATA A INFILE Nama_backup_file'INTO TABLE nama_table:</i>
+LOAD DATA A INFILE Nama_backup_file'INTO TABLE nama_table:
 ```
 ![gambar](scs/6.png)<br>
 ![gambar](scs/7.png)
