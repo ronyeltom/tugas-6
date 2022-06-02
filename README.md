@@ -28,13 +28,14 @@ LOAD DATA A INFILE Nama_backup_file'INTO TABLE nama_table:
 > 1. Menuju ke folder aplikasi mysqldump di xampp/mysql/bin
 > 2. Jalankan shell atau command-prompt dan ketikan perintah berikut untuk memulai dump database: `MySQLDUMP -u root -p -alldatabase` <br>
 ![gambar](scs/8.png)<br>
-> data yang di-backup dapat di restore kembali ke dalam, database dengan perintah
+> 3. data yang di-backup dapat di restore kembali ke dalam, database dengan perintah
 ```
 MySQLdump -u root -p (nama_database) < c:\file_backup.sq
 ```
-![gambar](scs/9.png)<br>
+![gambar](scs/9.png)
 
 
+## script cron job untuk melakukan backup otomatis setiap hari minggu jam 12 malam !
 ```
 00**7mysqldump -u root ronyeltom_312010003>backup2.sq
 ```
